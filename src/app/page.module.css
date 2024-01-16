@@ -1,18 +1,15 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  gap: 16px;
 }
 
 .app {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  justify-content: space-around;
-  padding: 20px;
-  width: 100%;
   align-items: center;
+  gap: 16px;
 }

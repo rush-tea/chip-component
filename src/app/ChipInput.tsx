@@ -7,10 +7,10 @@ import React, {
   ChangeEvent,
 } from "react";
 import styles from "./chipInput.module.css";
-import data from "./utils/data.json";
+import data from './utils/data.json'
 import Chip from "./components/Chip/Chip";
-import { getFirstLetter, stringToColor } from "./utils/utilityFunctions";
 import { ChipInterface } from "./utils/interfaces";
+import { getFirstLetter, stringToColor } from "./utils/utilityFunctions";
 
 const ChipInput: React.FC = () => {
   const [inputValue, setInputValue] = useState<string>("");
