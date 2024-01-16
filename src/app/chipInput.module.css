@@ -1,0 +1,110 @@
+/* src/ChipInput.css */
+.chipInput {
+    display: flex;
+    max-width: 60%;
+    flex-direction: column;
+    min-width: 300px;
+    justify-content: space-around;
+}
+
+.chipsBox {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 6px;
+}
+
+.chipList {
+    display: flex;
+    gap: 8px;
+}
+
+.chip {
+    background: rgba(0, 0, 0, 0.1);
+    color: black;
+    border-radius: 20px;
+    margin-right: 5px;
+    align-items: center;
+    opacity: 0.6;
+    display: flex;
+}
+
+.chip p {
+    margin: 0 8px; 
+    white-space: nowrap;
+}
+
+.chip button {
+    margin: 0 8px;
+}
+
+.chips {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 20px;
+    display: block;
+    width: 400px;
+    max-width: 100%;
+}
+
+.removeChip {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: black;
+    margin-left: 4px;
+}
+
+.inputItem {
+    width: 100%;
+    min-width: 150px;
+    min-height: 35px;
+    border: none;
+    appearance: none;
+}
+
+.inputItem:focus-visible {
+    outline: none;
+}
+
+.suggestionList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+.suggestedItem {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.suggestedItem:hover {
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.suggestedItem:focus-visible {
+    background: rgba(0, 0, 0, 0.04);
+    outline: none;
+}
+
+.avatar {
+    width: 30px; 
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
