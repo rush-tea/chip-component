@@ -311,7 +311,6 @@ const ChipInput: React.FC = () => {
               id={`${"#" + item.id}`}
               className={styles.suggestedItem}
               onClick={() => handleSuggestionClick(item)}
-              data-suggestion-id={item.id}
               tabIndex={idx + 1}
               onKeyDown={(e) => handleDropdownKeyDown(e, item.id)}
             >

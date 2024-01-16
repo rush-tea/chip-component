@@ -7,6 +7,10 @@
   gap: 16px;
 }
 
+.heading {
+  white-space: nowrap;
+}
+
 .app {
   display: flex;
   flex-direction: column;
